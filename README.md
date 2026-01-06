@@ -2,8 +2,7 @@
 
 A modern, highly stylized weather application built with React, Redux, and Tailwind CSS, featuring a distinctive **Neo-Brutalist** design language.
 
-![Neo-Brutalism Design Preview](https://via.placeholder.com/800x400?text=Neo-Brutalist+Weather+App)
-*Note: Replace with actual screenshot*
+
 
 ## 🎨 Features
 

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply min-h-screen bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark;
+  }
+}
+
+@layer utilities {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .material-symbols-bold {
+    font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 24;
+  }
+
+  /* Neo Brutalist Utilities */
+  .neobrutalist-shadow {
+    box-shadow: 4px 4px 0px 0px black;
+  }
+
+  .dark .neobrutalist-shadow {
+    box-shadow: 4px 4px 0px 0px #135bec;
+  }
+
+  .neobrutalist-border {
+    border: 2px solid black;
+  }
+
+  .dark .neobrutalist-border {
+    border: 2px solid white;
+  }
+
+  .neobrutalist-border-t {
+    border-top: 2px solid black;
+  }
+
+  .dark .neobrutalist-border-t {
+    border-top: 2px solid white;
+  }
+}
